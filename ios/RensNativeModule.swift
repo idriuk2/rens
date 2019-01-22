@@ -84,13 +84,18 @@ class RensNativeModule: RCTEventEmitter {
       // Add a drop shadow.
       view.configureDropShadow()
       
+      view.button?.isHidden = true
+      
       // Set message title, body, and icon. Here, we're overriding the default warning
       // image with an emoji character.
       let iconText = ["🤔", "😳", "🙄", "😶"].sm_random()!
       view.configureContent(title: "Warning", body: "Consider yourself warned.", iconText: iconText)
       
+      var config = SwiftMessages.defaultConfig
+      config.duration = .seconds(seconds: 10)
+      
       // Show the message.
-      SwiftMessages.show(view: view)
+      SwiftMessages.show(config: config, view: view)
     }
   }
   
