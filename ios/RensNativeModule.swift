@@ -74,22 +74,21 @@ class RensNativeModule: RCTEventEmitter {
   func showMessage() {
     DispatchQueue.main.async {
       SVProgressHUD.dismiss()
-      // Instantiate a message view from the provided card view layout. SwiftMessages searches for nib
-      // files in the main bundle first, so you can easily copy them into your project and make changes.
-      let view = MessageView.viewFromNib(layout: .cardView)
       
-      // Theme message elements with the warning style.
-      view.configureTheme(.warning)
+//      let view = MessageView.viewFromNib(layout: .cardView)
+//
+//
+//      view.configureTheme(.warning)
+//
+//
+//      view.configureDropShadow()
+//
+//      view.button?.isHidden = true
+//
+//      let iconText = ["🤔", "😳", "🙄", "😶"].sm_random()!
+//      view.configureContent(title: "Warning", body: "Consider yourself warned.", iconText: iconText)
       
-      // Add a drop shadow.
-      view.configureDropShadow()
-      
-      view.button?.isHidden = true
-      
-      // Set message title, body, and icon. Here, we're overriding the default warning
-      // image with an emoji character.
-      let iconText = ["🤔", "😳", "🙄", "😶"].sm_random()!
-      view.configureContent(title: "Warning", body: "Consider yourself warned.", iconText: iconText)
+      let view = TestCardView()
       
       var config = SwiftMessages.defaultConfig
       config.duration = .seconds(seconds: 10)

@@ -56,3 +56,4 @@ choose Rens and run
 - [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)
 - [ProgressHUD](https://github.com/relatedcode/ProgressHUD)
 - [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages)
+- [Swift 3 — Creating a custom view from a xib](https://medium.com/@brianclouser/swift-3-creating-a-custom-view-from-a-xib-ecdfe5b3a960)

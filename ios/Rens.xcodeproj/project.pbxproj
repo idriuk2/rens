@@ -45,6 +45,8 @@
 		963D25E521F5D8F70072A913 /* CustomTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963D25E421F5D8F70072A913 /* CustomTopView.swift */; };
 		96BF048021EC69EF002C484F /* RensNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF047F21EC69EF002C484F /* RensNativeModule.swift */; };
 		96BF04A721EC6DDB002C484F /* RensNativeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF04A621EC6DDB002C484F /* RensNativeModule.m */; };
+		96C6E9AA21F74D100007DB82 /* TestCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C6E9A921F74D100007DB82 /* TestCardView.xib */; };
+		96C6E9AC21F754050007DB82 /* TestCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C6E9AB21F754050007DB82 /* TestCardView.swift */; };
 		96EECB3921EF1F8600EC8AFA /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96EECB3621EF1F8500EC8AFA /* ProgressHUD.bundle */; };
 		96EECB3A21EF1F8600EC8AFA /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EECB3721EF1F8500EC8AFA /* ProgressHUD.m */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
@@ -367,6 +369,8 @@
 		96BF047E21EC69EE002C484F /* Rens-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rens-Bridging-Header.h"; sourceTree = "<group>"; };
 		96BF047F21EC69EF002C484F /* RensNativeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RensNativeModule.swift; sourceTree = "<group>"; };
 		96BF04A621EC6DDB002C484F /* RensNativeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RensNativeModule.m; sourceTree = "<group>"; };
+		96C6E9A921F74D100007DB82 /* TestCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCardView.xib; sourceTree = "<group>"; };
+		96C6E9AB21F754050007DB82 /* TestCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCardView.swift; sourceTree = "<group>"; };
 		96EECB3621EF1F8500EC8AFA /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		96EECB3721EF1F8500EC8AFA /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		96EECB3821EF1F8600EC8AFA /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
@@ -523,7 +527,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				96BF047E21EC69EE002C484F /* Rens-Bridging-Header.h */,
+				96C6E9AB21F754050007DB82 /* TestCardView.swift */,
 				963D25E421F5D8F70072A913 /* CustomTopView.swift */,
+				96C6E9A921F74D100007DB82 /* TestCardView.xib */,
 				96BF047F21EC69EF002C484F /* RensNativeModule.swift */,
 				96BF04A621EC6DDB002C484F /* RensNativeModule.m */,
 				9615ECBE21EDC60200C73E00 /* RensNativeView.swift */,
@@ -1124,6 +1130,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				96C6E9AA21F74D100007DB82 /* TestCardView.xib in Resources */,
 				96EECB3921EF1F8600EC8AFA /* ProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1267,6 +1274,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				9615ECE621EDC83D00C73E00 /* RensNativeViewManager.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				96C6E9AC21F754050007DB82 /* TestCardView.swift in Sources */,
 				9615ECBF21EDC60200C73E00 /* RensNativeView.swift in Sources */,
 				9615ECE821EDC94700C73E00 /* RensNativeViewManager.m in Sources */,
 				96BF04A721EC6DDB002C484F /* RensNativeModule.m in Sources */,
