@@ -75,23 +75,23 @@ class RensNativeModule: RCTEventEmitter {
     DispatchQueue.main.async {
       SVProgressHUD.dismiss()
       
-//      let view = MessageView.viewFromNib(layout: .cardView)
-//
-//
-//      view.configureTheme(.warning)
-//
-//
-//      view.configureDropShadow()
-//
-//      view.button?.isHidden = true
-//
-//      let iconText = ["🤔", "😳", "🙄", "😶"].sm_random()!
-//      view.configureContent(title: "Warning", body: "Consider yourself warned.", iconText: iconText)
+      let view = MessageView.viewFromNib(layout: .cardView)
+
+
+      view.configureTheme(.warning)
+
+
+      view.configureDropShadow()
+
+      view.button?.isHidden = true
+
+      let iconText = ["🤔", "😳", "🙄", "😶"].sm_random()!
+      view.configureContent(title: "Warning", body: "Consider yourself warned.", iconText: iconText)
       
-      let view = TestCardView()
+//      let view = TestCardView()
       
       var config = SwiftMessages.defaultConfig
-      config.duration = .seconds(seconds: 10)
+      config.duration = .seconds(seconds: 100)
       
       // Show the message.
       SwiftMessages.show(config: config, view: view)
