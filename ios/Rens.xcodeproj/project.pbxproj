@@ -42,6 +42,7 @@
 		9615ECBF21EDC60200C73E00 /* RensNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9615ECBE21EDC60200C73E00 /* RensNativeView.swift */; };
 		9615ECE621EDC83D00C73E00 /* RensNativeViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9615ECE521EDC83D00C73E00 /* RensNativeViewManager.swift */; };
 		9615ECE821EDC94700C73E00 /* RensNativeViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9615ECE721EDC94700C73E00 /* RensNativeViewManager.m */; };
+		962F76A92200900F00EC36CC /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 962F76832200900E00EC36CC /* CardView.xib */; };
 		963D25E521F5D8F70072A913 /* CustomTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963D25E421F5D8F70072A913 /* CustomTopView.swift */; };
 		96BF048021EC69EF002C484F /* RensNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BF047F21EC69EF002C484F /* RensNativeModule.swift */; };
 		96BF04A721EC6DDB002C484F /* RensNativeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BF04A621EC6DDB002C484F /* RensNativeModule.m */; };
@@ -365,6 +366,7 @@
 		9615ECBE21EDC60200C73E00 /* RensNativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RensNativeView.swift; sourceTree = "<group>"; };
 		9615ECE521EDC83D00C73E00 /* RensNativeViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RensNativeViewManager.swift; sourceTree = "<group>"; };
 		9615ECE721EDC94700C73E00 /* RensNativeViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RensNativeViewManager.m; sourceTree = "<group>"; };
+		962F76832200900E00EC36CC /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 		963D25E421F5D8F70072A913 /* CustomTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTopView.swift; sourceTree = "<group>"; };
 		96BF047E21EC69EE002C484F /* Rens-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rens-Bridging-Header.h"; sourceTree = "<group>"; };
 		96BF047F21EC69EF002C484F /* RensNativeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RensNativeModule.swift; sourceTree = "<group>"; };
@@ -529,6 +531,7 @@
 				96BF047E21EC69EE002C484F /* Rens-Bridging-Header.h */,
 				96C6E9AB21F754050007DB82 /* TestCardView.swift */,
 				96C6E9A921F74D100007DB82 /* TestCardView.xib */,
+				962F76832200900E00EC36CC /* CardView.xib */,
 				963D25E421F5D8F70072A913 /* CustomTopView.swift */,
 				96BF047F21EC69EF002C484F /* RensNativeModule.swift */,
 				96BF04A621EC6DDB002C484F /* RensNativeModule.m */,
@@ -1130,6 +1133,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				962F76A92200900F00EC36CC /* CardView.xib in Resources */,
 				96C6E9AA21F74D100007DB82 /* TestCardView.xib in Resources */,
 				96EECB3921EF1F8600EC8AFA /* ProgressHUD.bundle in Resources */,
 			);

@@ -83,7 +83,7 @@ class RensNativeModule: RCTEventEmitter {
 
       view.configureDropShadow()
 
-      view.button?.isHidden = true
+      //view.button?.isHidden = true
 
       let iconText = ["🤔", "😳", "🙄", "😶"].sm_random()!
       view.configureContent(title: "Warning", body: "Consider yourself warned.", iconText: iconText)
@@ -91,7 +91,7 @@ class RensNativeModule: RCTEventEmitter {
 //      let view = TestCardView()
       
       var config = SwiftMessages.defaultConfig
-      config.duration = .seconds(seconds: 100)
+      config.duration = .seconds(seconds: 3)
       
       // Show the message.
       SwiftMessages.show(config: config, view: view)
