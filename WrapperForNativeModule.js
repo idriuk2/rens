@@ -19,7 +19,7 @@ export default class WrapperForNativeModule extends Component {
     // rensNativeModule.decrement()
     // rensNativeModule.decrement()
 
-    rensNativeModule.logMessage('hello world')
+    // rensNativeModule.logMessage('hello world')
 
   }
 
