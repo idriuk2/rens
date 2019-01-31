@@ -92,6 +92,7 @@ class RensNativeModule: RCTEventEmitter {
       
       var config = SwiftMessages.defaultConfig
       config.duration = .seconds(seconds: 3)
+      config.presentationStyle = .center
       
       // Show the message.
       SwiftMessages.show(config: config, view: view)
