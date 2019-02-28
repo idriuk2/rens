@@ -528,11 +528,8 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				963C242E220D6C2F00C23B83 /* customViews */,
 				96BF047E21EC69EE002C484F /* Rens-Bridging-Header.h */,
-				96C6E9AB21F754050007DB82 /* TestCardView.swift */,
-				96C6E9A921F74D100007DB82 /* TestCardView.xib */,
-				962F76832200900E00EC36CC /* CardView.xib */,
-				963D25E421F5D8F70072A913 /* CustomTopView.swift */,
 				96BF047F21EC69EF002C484F /* RensNativeModule.swift */,
 				96BF04A621EC6DDB002C484F /* RensNativeModule.m */,
 				9615ECBE21EDC60200C73E00 /* RensNativeView.swift */,
@@ -646,6 +643,17 @@
 				2D02E4901E0B4A5D006451C7 /* Rens-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		963C242E220D6C2F00C23B83 /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				96C6E9AB21F754050007DB82 /* TestCardView.swift */,
+				96C6E9A921F74D100007DB82 /* TestCardView.xib */,
+				962F76832200900E00EC36CC /* CardView.xib */,
+				963D25E421F5D8F70072A913 /* CustomTopView.swift */,
+			);
+			path = customViews;
 			sourceTree = "<group>";
 		};
 		96EECB1021EF1F4E00EC8AFA /* ProgressHUD */ = {

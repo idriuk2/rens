@@ -73,8 +73,8 @@ class RensNativeModule: RCTEventEmitter {
   
   func showMessage() {
     DispatchQueue.main.async {
-      SVProgressHUD.dismiss()
-      
+//      SVProgressHUD.dismiss()
+
       let view = MessageView.viewFromNib(layout: .cardView)
 
 
